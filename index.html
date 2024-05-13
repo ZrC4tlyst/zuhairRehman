@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>IT career Switch TASK</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>API name</th>
+            <th>API description</th>
+            <th></th>
+        </tr>
+
+        <tr>
+            <td>
+                <h2>Timezone</h2>
+            </td>
+            <td>
+                <h2>Check the time along with the timezone using coordinates</h2>
+                <label for="latitude longitude">Enter coordinates:
+                    <input type="text" id="latitude" name="latitude" placeholder="Latitude&deg">
+                    <input type="text" id="longitude" name="longitude" placeholder="Longitude&deg">
+                </label>
+            </td>
+            <td>
+                <button id="btnClick">Submit</button>
+            </td>
+        </tr>
+
+        <tr>
+            <td align="right" id='timezone'>
+                <p id="tabledescriptions">
+                <h4>Timezone Data:</h4>
+                </p>
+            </td>
+            <td>
+                <p><b>Sunrise:</b></p>
+                <p id="sunrise"></p>
+                <p><b>Sunset:</b></p>
+                <p id="sunset"></p>
+                <p><b>Country:</b></p>
+                <p id="country"></p>
+                <p><b>Timezone:</b></p>
+                <p id="timeZone"></p>
+                <p><b>Time now:</b></p>
+                <p id="timeNow"></p>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h2>Ocean Data</h2>
+            </td>
+            <td>
+                <h2>Find the nearest Ocean by entering coordinates</h2>
+                <label for="latitude1 longitude1">Enter coordinates:
+                    <input type="text" id="latitude1" name="latitude1" placeholder="Latitude&deg">
+                    <input type="text" id="longitude1" name="longitude1" placeholder="Longitude&deg">
+                </label>
+            </td>
+            <td>
+                <button id="btnClick2">Submit</button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p id="tabledescriptions">
+                <h4>Nearest Ocean Data:</h4>
+                </p>
+            </td>
+            <td>
+                <p><b>Ocean name:</b></p>
+                <p id="ocean"></p>
+                <p><b>Distance:</b></p>
+                <p id="distance"></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h2>Ocean Data</h2>
+            </td>
+            <td>
+                <h2>Retrieve data of the most recent earthquakes recorded</h2>
+                <label for="north south east west">Enter coordinates:
+                    <input type="text" id="north" name="north" placeholder="North&deg">
+                    <input type="text" id="south" name="south" placeholder="South&deg">
+                    <input type="text" id="east" name="east" placeholder="East&deg">
+                    <input type="text" id="west" name="west" placeholder="West&deg">
+                </label>
+            </td>
+            <td>
+                <button id="btnClick3">Submit</button>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <p id="tabledescriptions">
+                <h4>Latest Tremor Data:</h4>
+                </p>
+            </td>
+            <td>
+                <p><b>Date - time:</b></p>
+                <p id="datetime"></p>
+                <p><b>Depth:</p>
+                <p id="depth"></p>
+                <p><b>Magnitude:</p>
+                <p id="magnitude"></p>
+                <p><b>Data Sourced location:</p>
+                <p id="src"></p>
+            </td>
+        </tr>
+    </table>
+
+    <script src="Javascript/jquery-3.7.1.min.js"></script>
+    <script src="Javascript/script.js"></script>
+</body>
+
+</html>

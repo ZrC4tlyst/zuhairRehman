@@ -1,0 +1,23 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 35px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td:nth-child(2) {
+  width: 60%; /* Adjust the width value as needed */
+}
+
+table tr td:nth-child(6) {
+  height: 100px;
+}
